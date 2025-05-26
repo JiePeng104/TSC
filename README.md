@@ -1,6 +1,6 @@
 
 ## Overview
-Implementation of ICML-2025, 11061.
+Implementation of ICML-2025, Circumventing Backdoor Space via Weight Symmetry.
 Our code is mainly build upon four public repository:
 1. [BackdoorBench](https://github.com/SCLBD/BackdoorBench/)
 2. [BadEncoder](https://github.com/jinyuan-jia/BadEncoder)
