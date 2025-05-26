@@ -1,0 +1,28 @@
+device: 'cuda'
+checkpoint_load:
+checkpoint_save:
+log:
+data_root: 'data/'
+attack_target: 0
+
+dataset: 'cifar10'
+num_classes: 
+input_height: 
+input_width:
+input_channel:
+wd: 1.0e-4
+
+epochs: 100
+batch_size: 100
+num_workers: 4
+lr: 0.0001
+lr_scheduler: CosineAnnealingLR
+
+poison_rate: 0.1
+target_type: 'all2one'
+target_label: 0
+
+model: 'preactresnet18'
+random_seed: 0
+index:
+ratio: 0.05 #for fair
